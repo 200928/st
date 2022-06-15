@@ -7,7 +7,8 @@
  */
 //static char *font = "Liberation Mono:pixelsize=18:antialias=true:autohint=true";
 //static char *font = "JetBrains Mono SemiBold:size=14:antialias=true:autohint=true";
-static char *font = "FiraCode Nerd Font:style=Regular:size=14";
+//static char *font = "FiraCode Nerd Font:style=Regular:size=14";
+static char *font = "Cascadia Code:style=SmeiLight:size=15:LineHeight=1.3";
 static int borderpx = 2;
 
 /*
@@ -96,7 +97,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.9;
+float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -204,8 +205,8 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
 	//{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
 	//{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
-	{ ControlMask,          XK_j,     	kscrollup,      {.i = -1} },
-	{ ControlMask,          XK_k,     	kscrolldown,    {.i = -1} },
+	{ ControlMask|MODKEY,   XK_j,       	kscrolldown,    {.i = -1} },
+	{ ControlMask|MODKEY,   XK_k,       	kscrollup,      {.i = -1} },
 };
 
 /*
