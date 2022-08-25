@@ -14,7 +14,7 @@
 //  static char *font = "Rec Mono Linear:style=Bold:size=16:LineHeight=1.2";
 static char *font = "Rec Mono Casual:style=Regular:size=16:LineHeight=1.2";
 static char *font2[] = {
-    "symbola:pixelsize=20:antialias=true:autohint=true"
+    // "symbola:pixelsize=20:antialias=true:autohint=true"
 };
 static int borderpx = 0;
 
