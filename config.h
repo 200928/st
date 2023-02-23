@@ -8,12 +8,13 @@
 // static char *font = "Liberation
 // Mono:pixelsize=18:antialias=true:autohint=true"; static char *font =
 // "JetBrains Mono SemiBold:size=14:antialias=true:autohint=true";
- // static char *font = "UbuntuMono Nerd Font Mono:style=Regular:size=18";
- // static char *font = "FiraMono Nerd Font Mono:style=Regular:size=16";
+// static char *font = "UbuntuMono Nerd Font Mono:style=Regular:size=18";
+// static char *font = "FiraMono Nerd Font Mono:style=Regular:size=16";
 //  static char *font = "Cascadia Code:style=SmeiLight:size=14:LineHeight=1.2";
 //  static char *font = "Rec Mono Linear:style=Bold:size=16:LineHeight=1.2";
 static char *font = "Rec Mono Casual:style=Regular:size=16:LineHeight=1.2";
 static char *font2[] = {
+    "JoyPixels:pixelsize=16:type=Regular:antialias=true:autohint=true"
     // "symbola:pixelsize=20:antialias=true:autohint=true"
 };
 static int borderpx = 0;
