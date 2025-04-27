@@ -6,16 +6,17 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 // static char *font = "Liberation
-// Mono:pixelsize=18:antialias=true:autohint=true"; static char *font =
-// "JetBrains Mono SemiBold:size=14:antialias=true:autohint=true";
-// static char *font = "UbuntuMono Nerd Font Mono:style=Regular:size=18";
-// static char *font = "FiraMono Nerd Font Mono:style=Regular:size=16";
-//  static char *font = "Cascadia Code:style=SmeiLight:size=14:LineHeight=1.2";
+// Mono:pixelsize=18:antialias=true:autohint=true";
+static char *font =
+    "JetBrains Mono SemiBold:size=16:antialias=true:autohint=true";
+// static char *font = "UbuntuMono Nerd Font Mono:style=Regular:size=16";
+//  static char *font = "FiraMono Nerd Font Mono:style=Regular:size=16";
+//   static char *font = "Cascadia Code:style=SmeiLight:size=14:LineHeight=1.2";
 //  static char *font = "Rec Mono Linear:style=Bold:size=16:LineHeight=1.2";
-static char *font = "Rec Mono Casual:style=Regular:size=16:LineHeight=1.2";
+// static char *font = "Rec Mono Casual:style=Regular:size=16:LineHeight=1.2";
 static char *font2[] = {
-    "JoyPixels:pixelsize=16:type=Regular:antialias=true:autohint=true"
-    // "symbola:pixelsize=20:antialias=true:autohint=true"
+    //"JoyPixels:pixelsize=16:type=Regular:antialias=true:autohint=true"
+    "symbola:pixelsize=20:antialias=true:autohint=true",
 };
 static int borderpx = 0;
 
@@ -85,7 +86,8 @@ static unsigned int cursorthickness = 2;
 static int bellvolume = 0;
 
 /* default TERM value */
-char *termname = "st-256color";
+// char *termname = "st-256color";
+char *termname = "xterm-256color";
 
 /*
  * spaces per tab
@@ -487,7 +489,6 @@ static uint selmasks[] = {
  * Printable characters in ASCII, used to estimate the advance width
  * of single wide characters.
  */
-static char ascii_printable[] =
-    " !\"#$%&'()*+,-./0123456789:;<=>?"
-    "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_"
-    "`abcdefghijklmnopqrstuvwxyz{|}~";
+static char ascii_printable[] = " !\"#$%&'()*+,-./0123456789:;<=>?"
+                                "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_"
+                                "`abcdefghijklmnopqrstuvwxyz{|}~";
